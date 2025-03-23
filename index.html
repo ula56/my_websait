@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин Одягу</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Магазин Одягу</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#products">Продукти</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="intro">
+        <h2>Ласкаво просимо до нашого магазину!</h2>
+        <p>Оберіть стильний одяг для себе.</p>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Наші Продукти</h2>
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Товар 1">
+            <h3>Сукня</h3>
+            <p>Красива літня сукня, ідеальна для відпочинку.</p>
+            <p class="price">Цена: 500 грн</p>
+            <button class="add-to-cart">Додати в кошик</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Товар 2">
+            <h3>Футболка</h3>
+            <p>Модна футболка з унікальним дизайном.</p>
+            <p class="price">Цена: 250 грн</p>
+            <button class="add-to-cart">Додати в кошик</button>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Контакти</h2>
+        <p>Зв'яжіться з нами за допомогою форми або за телефоном.</p>
+        <form id="contact-form">
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Повідомлення:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Відправити</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Магазин Одягу | Усі права захищені</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
